@@ -2,15 +2,14 @@ package io.github.nguyenyou.dom
 
 import scala.scalajs.js
 
-@js.native
-sealed trait PermissionName extends js.Any
+opaque type PermissionName <: String = String
 
 object PermissionName {
-  val geolocation: PermissionName = "geolocation".asInstanceOf[PermissionName]
-  val midi: PermissionName = "midi".asInstanceOf[PermissionName]
-  val notifications: PermissionName = "notifications".asInstanceOf[PermissionName]
-  val push: PermissionName = "push".asInstanceOf[PermissionName]
+  val geolocation: PermissionName = "geolocation"
+  val midi: PermissionName = "midi"
+  val notifications: PermissionName = "notifications"
+  val push: PermissionName = "push"
 
-  val `persistent-storage` =
-    "persistent-storage".asInstanceOf[PermissionName]
+  val `persistent-storage`: PermissionName =
+    "persistent-storage"
 }
