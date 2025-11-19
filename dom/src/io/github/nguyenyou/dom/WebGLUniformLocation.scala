@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL uniform location. */
 @js.native
 @JSGlobal
-class WebGLUniformLocation private () extends js.Object
+class WebGLUniformLocation private[this] () extends js.Object

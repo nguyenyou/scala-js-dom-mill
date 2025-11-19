@@ -15,4 +15,4 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class HTMLOptionsCollection private () extends HTMLCollection[HTMLOptionElement]
+class HTMLOptionsCollection private[this] () extends HTMLCollection[HTMLOptionElement]

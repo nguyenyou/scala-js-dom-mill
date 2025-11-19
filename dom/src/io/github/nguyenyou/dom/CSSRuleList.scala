@@ -12,6 +12,6 @@ import scala.scalajs.js.annotation._
 /** A CSSRuleList is an array-like object containing an ordered collection of CSSRule objects. */
 @js.native
 @JSGlobal
-class CSSRuleList private () extends DOMList[CSSRule] {
+class CSSRuleList private[this] () extends DOMList[CSSRule] {
   def item(index: Int): CSSRule = js.native
 }

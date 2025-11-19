@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL shader. */
 @js.native
 @JSGlobal
-class WebGLShader private () extends js.Object
+class WebGLShader private[this] () extends js.Object

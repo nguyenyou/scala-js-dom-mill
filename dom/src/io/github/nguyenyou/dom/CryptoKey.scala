@@ -9,7 +9,7 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-final class CryptoKey private () extends js.Object {
+final class CryptoKey private[this] () extends js.Object {
   val `type`: String = js.native
 
   val extractable: Boolean = js.native

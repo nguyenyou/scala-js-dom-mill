@@ -18,7 +18,7 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class EventSource private extends EventTarget {
+class EventSource private[this] extends EventTarget {
 
   def this(url: String, configuration: EventSourceInit = js.native) = this()
 

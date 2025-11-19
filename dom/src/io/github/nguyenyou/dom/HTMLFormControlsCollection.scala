@@ -19,4 +19,4 @@ import scala.scalajs.js.|
   */
 @js.native
 @JSGlobal
-class HTMLFormControlsCollection private () extends HTMLCollection[RadioNodeList | Element]
+class HTMLFormControlsCollection private[this] () extends HTMLCollection[RadioNodeList | Element]

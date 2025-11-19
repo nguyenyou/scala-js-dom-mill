@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation._
 /** A type returned by DOMConfiguration.parameterNames which contains a list of DOMString (strings). */
 @js.native
 @JSGlobal
-class DOMStringList private () extends DOMList[String] {
+class DOMStringList private[this] () extends DOMList[String] {
   def item(index: Int): String = js.native
 
   def contains(str: String): Boolean = js.native

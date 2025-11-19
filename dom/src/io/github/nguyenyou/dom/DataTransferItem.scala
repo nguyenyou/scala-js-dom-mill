@@ -12,7 +12,7 @@ import scala.scalajs.js.annotation.JSGlobal
 /** Each DataTransferItem object is associated with a [[DataTransfer]] object. */
 @js.native
 @JSGlobal
-class DataTransferItem private extends js.Object {
+class DataTransferItem private[this] extends js.Object {
 
   /** Returns the drag data item kind, one of: "string", "file". */
   def kind: DragDataItemKind = js.native

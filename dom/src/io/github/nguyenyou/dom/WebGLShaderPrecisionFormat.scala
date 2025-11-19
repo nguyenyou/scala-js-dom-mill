@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class WebGLShaderPrecisionFormat private () extends js.Object {
+class WebGLShaderPrecisionFormat private[this] () extends js.Object {
 
   /** The base 2 log of the absolute value of the minimum value that can be represented. */
   val rangeMin: Int = js.native

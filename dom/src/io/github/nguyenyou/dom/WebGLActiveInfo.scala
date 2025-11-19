@@ -14,7 +14,7 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class WebGLActiveInfo private () extends js.Object {
+class WebGLActiveInfo private[this] () extends js.Object {
 
   /** The size of the requested variable. */
   val size: Int = js.native

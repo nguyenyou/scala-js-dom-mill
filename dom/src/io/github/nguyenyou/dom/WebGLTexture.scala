@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL texture. */
 @js.native
 @JSGlobal
-class WebGLTexture private () extends js.Object
+class WebGLTexture private[this] () extends js.Object

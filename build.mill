@@ -46,5 +46,5 @@ object dom extends ScalaJSModule {
   def moduleKind = ModuleKind.ESModule
   def moduleSplitStyle = ModuleSplitStyle.FewestModules
 
-  override def scalacOptions: Simple[Seq[String]] = Seq("-rewrite", "-source", "3.4-migration")
+  // override def scalacOptions: Simple[Seq[String]] = Seq("-rewrite", "-source", "3.4-migration")
 }

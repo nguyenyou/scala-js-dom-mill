@@ -11,6 +11,6 @@ import scala.scalajs.js.annotation._
 
 @js.native
 @JSGlobal
-class TextTrackCueList private () extends DOMList[TextTrackCue] {
+class TextTrackCueList private[this] () extends DOMList[TextTrackCue] {
   def getCueById(id: String): TextTrackCue = js.native
 }

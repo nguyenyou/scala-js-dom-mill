@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL renderbuffer. */
 @js.native
 @JSGlobal
-class WebGLRenderbuffer private () extends js.Object
+class WebGLRenderbuffer private[this] () extends js.Object

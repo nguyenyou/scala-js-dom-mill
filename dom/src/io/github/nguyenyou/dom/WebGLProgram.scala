@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL program. */
 @js.native
 @JSGlobal
-class WebGLProgram private () extends js.Object
+class WebGLProgram private[this] () extends js.Object

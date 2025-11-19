@@ -12,4 +12,4 @@ import scala.scalajs.js.annotation._
 /** An opaque type representing a WebGL framebuffer. */
 @js.native
 @JSGlobal
-class WebGLFramebuffer private () extends js.Object
+class WebGLFramebuffer private[this] () extends js.Object

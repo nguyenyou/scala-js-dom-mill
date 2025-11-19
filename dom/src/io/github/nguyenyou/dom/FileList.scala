@@ -15,6 +15,6 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class FileList private () extends DOMList[File] {
+class FileList private[this] () extends DOMList[File] {
   def item(index: Int): File = js.native
 }
