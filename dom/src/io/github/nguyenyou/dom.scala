@@ -1,0 +1,19 @@
+package io.github.nguyenyou.dom
+
+import scala.scalajs.js
+import scala.scalajs.js.annotation._
+import scala.scalajs.js.typedarray.{ArrayBuffer, ArrayBufferView, Uint8Array}
+import scala.scalajs.js.|
+
+/** The Transferable interface represents an object that can be transfered between different execution contexts, like
+    * the main thread and Web workers.
+    *
+    * This is an abstract interface and there isn't any object of this type. It also doesn't define any method or
+    * property: it is merely a tag indicating objects that can be used in specific conditions, like to be transfered to
+    * a Worker using the Worker.postMessage() method.
+    */
+type Transferable = ArrayBuffer | MessagePort | CanvasProxy
+
+type BufferSource = ArrayBufferView | ArrayBuffer
+
+type BlobPart = BufferSource | Blob | String
