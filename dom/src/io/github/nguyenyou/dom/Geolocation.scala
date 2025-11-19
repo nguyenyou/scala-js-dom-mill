@@ -31,5 +31,5 @@ trait Geolocation extends js.Object {
     * function.
     */
   def watchPosition(successCallback: js.Function1[Position, ?],
-      errorCallback: js.Function1[PositionError, _] = js.native, options: PositionOptions = js.native): Int = js.native
+      errorCallback: js.Function1[PositionError, ?] = js.native, options: PositionOptions = js.native): Int = js.native
 }
