@@ -39,3 +39,10 @@ object www extends ScalaJSModule, ScalafixModule {
 
   override def scalacOptions: Simple[Seq[String]] = Seq("-Wunused:all")
 }
+
+object dom extends ScalaJSModule {
+  def scalaVersion = Versions.scala3
+  def scalaJSVersion = Versions.sjs
+  def moduleKind = ModuleKind.ESModule
+  def moduleSplitStyle = ModuleSplitStyle.FewestModules
+}
