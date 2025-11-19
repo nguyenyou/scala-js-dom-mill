@@ -9,7 +9,7 @@ import scala.scalajs.js.annotation.JSGlobal
   */
 @js.native
 @JSGlobal
-class Lock private[this] extends js.Object {
+class Lock private extends js.Object {
 
   /** The access mode passed to [[LockManager.request(name:String,callback:* LockManager.request]] when the lock was
     * requested.

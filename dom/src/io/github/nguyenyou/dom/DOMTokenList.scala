@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation._
   */
 @js.native
 @JSGlobal
-class DOMTokenList private[this] extends DOMList[String] {
+class DOMTokenList private extends DOMList[String] {
   def item(index: Int): String = js.native
 
   def contains(token: String): Boolean = js.native

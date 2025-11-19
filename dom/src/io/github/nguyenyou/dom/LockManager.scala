@@ -8,7 +8,7 @@ import scala.scalajs.js.annotation.JSGlobal
   */
 @js.native
 @JSGlobal
-class LockManager private[this] extends js.Object {
+class LockManager private extends js.Object {
 
   /** Resolves with an object containing information about held and pending locks. */
   def query(): js.Promise[LockManagerSnapshot] = js.native

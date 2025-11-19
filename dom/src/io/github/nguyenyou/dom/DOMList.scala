@@ -34,7 +34,7 @@ object DOMList {
 
   private final class DOMListIterator[+T](domList: DOMList[T]) extends Iterator[T] {
 
-    private[this] var index = 0
+    private var index = 0
 
     def hasNext: Boolean = index < domList.length
 
